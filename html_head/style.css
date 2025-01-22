@@ -1,0 +1,89 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: darkgreen;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: darkgreen;
+    color: blanchedalmond;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar-inverse {
+    background-color: darkgreen;
+    border-color: darkgreen;
+    transition: background-color 0.3s;
+}
+
+.navbar-inverse:hover {
+    background-color: darkolivegreen;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .nav > li > a {
+    color: blanchedalmond;
+    transition: color 0.3s, font-size 0.3s;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .nav > li > a:hover {
+    color: blanchedalmond;
+    font-size: 1.1em;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav ul li a {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+h1, h2 {
+    color:burlywood;
+    text-align: center;
+}
+
+p {
+    color:blanchedalmond;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: blanchedalmond;
+    box-shadow: 0 0 10px rbga(0, 0, 0, 0.1);
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px
+}
+
+.gallery-item {
+    width: 200px;
+    height: auto;
+    border: 2px solid #333;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a img {
+    width: 30px;
+    height: auto;
+}
